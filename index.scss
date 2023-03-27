@@ -59,6 +59,35 @@
                 position: absolute;
                 right: 20px;
             }
+            
+            .menu__buttons {
+                display: flex;
+                justify-content: center;
+                margin-left: 15px;
+    
+                .menu__button_1 {
+                    position: absolute;
+                    top: 35px;
+                }
+    
+                .menu__button_2 {
+                    display: none;
+                    top: 35px;
+
+                }
+    
+            }
+    
+            .menu__buttons:hover {
+                .menu__button_1 {
+                    display: none;
+                }
+    
+                .menu__button_2 {
+                    display: flex;
+                    position: absolute;
+                }
+            }
 
             .menu_container {
                 margin-left: auto;
@@ -377,9 +406,7 @@
                     margin-top: 15px;
                     font-weight: 700;
                     font-size: 25px;
-                    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    color: #F0145A;
                     margin-bottom: 15px;
                 }
 
