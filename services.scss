@@ -160,7 +160,7 @@
             }
         }
 
-        .header__section_2 {
+        .header__section {
             margin-top: 60px;
 
             h2 {
@@ -174,13 +174,13 @@
                 margin-bottom: 60px;
             }
 
-            .header__section_2_wrapper {
+            .header__section_wrapper {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 60px;
 
-                .header__section_2_title {
+                .header__section_title {
                     margin-top: 30px;
                     margin-bottom: 30px;
                     max-width: 360px;
@@ -192,7 +192,7 @@
                     }
                 }
 
-                .header__section_2_subtitle {
+                .header__section_subtitle {
                     font-weight: 400;
                     font-size: 15px;
                     color: #FFFFFF;
@@ -363,9 +363,9 @@
 @media screen and (max-width:1920px) {
     .header {
         .header__container {
-            .header__section_2 {
-                .header__section_2_wrapper {
-                    .header__section_2_title {
+            .header__section {
+                .header__section_wrapper {
+                    .header__section_title {
                         max-width: 500px;
 
                         & a {
@@ -373,7 +373,7 @@
                         }
                     }
 
-                    .header__section_2_subtitle {
+                    .header__section_subtitle {
                         max-width: 490px;
                         font-size: 20px;
                     }
@@ -387,9 +387,9 @@
 @media screen and (max-width:1440px) {
     .header {
         .header__container {
-            .header__section_2 {
-                .header__section_2_wrapper {
-                    .header__section_2_title {
+            .header__section {
+                .header__section_wrapper {
+                    .header__section_title {
                         max-width: 360px;
 
                         & a {
@@ -397,7 +397,7 @@
                         }
                     }
 
-                    .header__section_2_subtitle {
+                    .header__section_subtitle {
                         max-width: 360px;
                         font-size: 15px;
                     }
@@ -426,9 +426,9 @@
             margin-left: 4%;
             margin-right: 4%;
 
-            .header__section_2 {
-                .header__section_2_wrapper {
-                    .header__section_2_title {
+            .header__section {
+                .header__section_wrapper {
+                    .header__section_title {
                         max-width: 245px;
 
                         & a {
@@ -436,7 +436,7 @@
                         }
                     }
 
-                    .header__section_2_subtitle {
+                    .header__section_subtitle {
                         max-width: 245px;
                     }
                 }
@@ -537,9 +537,9 @@
 
             }
 
-            .header__section_2 {
-                .header__section_2_wrapper {
-                    .header__section_2_title {
+            .header__section {
+                .header__section_wrapper {
+                    .header__section_title {
                         min-width: 300px;
 
                         & a {
@@ -548,7 +548,7 @@
 
                     }
 
-                    .header__section_2_subtitle {
+                    .header__section_subtitle {
                         max-width: 350px;
                         font-size: 18px;
                     }

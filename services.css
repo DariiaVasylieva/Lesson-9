@@ -128,10 +128,10 @@
   color: #F0145A;
   border-bottom: 2px solid #F0145A;
 }
-.header .header__container .header__section_2 {
+.header .header__container .header__section {
   margin-top: 60px;
 }
-.header .header__container .header__section_2 h2 {
+.header .header__container .header__section h2 {
   font-weight: 700;
   font-size: 38px;
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
@@ -140,29 +140,29 @@
   background-clip: text;
   margin-bottom: 60px;
 }
-.header .header__container .header__section_2 .header__section_2_wrapper {
+.header .header__container .header__section .header__section_wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
 }
-.header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title {
+.header .header__container .header__section .header__section_wrapper .header__section_title {
   margin-top: 30px;
   margin-bottom: 30px;
   max-width: 360px;
 }
-.header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title a {
+.header .header__container .header__section .header__section_wrapper .header__section_title a {
   font-weight: 700;
   font-size: 23px;
   color: #24A3FF;
 }
-.header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_subtitle {
+.header .header__container .header__section .header__section_wrapper .header__section_subtitle {
   font-weight: 400;
   font-size: 15px;
   color: #FFFFFF;
   max-width: 360px;
 }
-.header .header__container .header__section_2 .header__section_2_wrapper .hover_title a:hover {
+.header .header__container .header__section .header__section_wrapper .hover_title a:hover {
   color: #F0145A;
 }
 
@@ -289,25 +289,25 @@
 }
 
 @media screen and (max-width: 1920px) {
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title {
+  .header .header__container .header__section .header__section_wrapper .header__section_title {
     max-width: 500px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title a {
+  .header .header__container .header__section .header__section_wrapper .header__section_title a {
     font-size: 24px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_subtitle {
+  .header .header__container .header__section .header__section_wrapper .header__section_subtitle {
     max-width: 490px;
     font-size: 20px;
   }
 }
 @media screen and (max-width: 1440px) {
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title {
+  .header .header__container .header__section .header__section_wrapper .header__section_title {
     max-width: 360px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title a {
+  .header .header__container .header__section .header__section_wrapper .header__section_title a {
     font-size: 23px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_subtitle {
+  .header .header__container .header__section .header__section_wrapper .header__section_subtitle {
     max-width: 360px;
     font-size: 15px;
   }
@@ -324,13 +324,13 @@
     margin-left: 4%;
     margin-right: 4%;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title {
+  .header .header__container .header__section .header__section_wrapper .header__section_title {
     max-width: 245px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title a {
+  .header .header__container .header__section .header__section_wrapper .header__section_title a {
     font-size: 22px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_subtitle {
+  .header .header__container .header__section .header__section_wrapper .header__section_subtitle {
     max-width: 245px;
   }
   .main .main__container {
@@ -388,13 +388,13 @@
   .header .header__container .header__menu .menu_container {
     display: none;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title {
+  .header .header__container .header__section .header__section_wrapper .header__section_title {
     min-width: 300px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_title a {
+  .header .header__container .header__section .header__section_wrapper .header__section_title a {
     font-size: 26px;
   }
-  .header .header__container .header__section_2 .header__section_2_wrapper .header__section_2_subtitle {
+  .header .header__container .header__section .header__section_wrapper .header__section_subtitle {
     max-width: 350px;
     font-size: 18px;
   }
